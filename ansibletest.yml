@@ -4,4 +4,4 @@
   tasks:
   - name: Download file from S3 bucket
     s3: aws_access_key=AKIAWOBLHXRY5VSTJ35V aws_secret_key=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 
-    bucket=avibucket22 object=/secretsfilecode.txt.txt dest=/avibucket22/mysecrets/secretsfilecode.txt.txt mode=get
+        bucket=avibucket22 object=/secretsfilecode.txt.txt dest=/avibucket22/mysecrets/secretsfilecode.txt.txt mode=get
