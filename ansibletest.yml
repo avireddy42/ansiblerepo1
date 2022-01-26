@@ -1,5 +1,5 @@
 ---
-- hosts: https://avibucket22.s3.amazonaws.com/mysecrets/
+- hosts: localhost
   become: true
   tasks:
   - name: Download file from S3 bucket
